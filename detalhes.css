@@ -1,0 +1,736 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background: rgb(194, 194, 194);  
+    height: 100px;
+    width: 100%;
+    margin-bottom: 3px solid black;
+    box-shadow: 0 0 5px black;
+}
+
+.Logo{
+    width: 156px;
+}
+
+.lateral1 b{
+    margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    background-color: gray;
+}
+
+container{
+    background: rgb(0, 0, 0);
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.lados{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+  samsung
+.lateral h1{
+    font-size: 21px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: bisque;
+    width: 345px;
+    margin-top: 8px;
+    
+}
+
+.lateral h2{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 105px;
+}
+
+.lateral p{
+    margin-left: 65px;
+
+}
+
+.celular{
+    width: 257px;
+    margin-top: 10px;
+}
+
+.quadrado{
+    background-color: papayawhip;
+    width: 244px;
+    border-radius: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quadrado h2{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.quadrado2{
+    background-color: papayawhip;
+    width: 244px;
+    border-radius: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quadrado2 h3{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+
+.quadrado3 h4{
+    font-size: 18px;
+    color: rgb(245, 60, 60);
+    margin-top: 10px;
+}
+
+.quadrado3 h5{
+    font-size: 18px;
+    color: black;
+    margin-top: 10px;
+}
+
+.quadrado3 {
+    background-color: papayawhip;
+    width: 244px;
+    border-radius: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+.voltar{
+    margin-top: 10px;
+}
+
+button a{
+    background-color: rgb(173, 173, 173);
+}
+
+button {
+    margin-top: 5px;
+    padding: 10px 20px;
+    background-color: rgb(173, 173, 173);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    transition: 0.8s ease;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 48px;
+    margin-left: 560px;
+}
+
+button:hover {
+    padding: 10px 20px;
+    background-color: rgb(173, 173, 173);
+    color: #ffffff;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    transition: 0.8s ease;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    transform: scale(1.10);
+    transition-delay: 0,2s;
+}
+
+ motorola
+
+.lateral2 h1{
+    font-size: 21px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(212, 240, 247);
+    width: 345px;
+    margin-top: 8px;
+    
+}
+
+.lateral2 h2{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 105px;
+}
+
+.celular{
+    width: 257px;
+    margin-top: 10px;
+}
+
+.lateral2 h1{
+    font-size: 21px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(212, 240, 247);
+    width: 263px;
+    margin-top: 8px;
+    
+}
+
+.lateral2 h2{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 105px;
+}
+
+.lateral2 b{
+    margin-left: 65px;
+}
+
+.celular{
+    width: 257px;
+    margin-top: 10px;
+}
+
+.quadrado-4{
+    background-color: rgb(212, 240, 247);
+    width: 244px;
+    border-radius: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quadrado-4 h2{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.quadrado-5{
+    background-color: rgb(181, 237, 252);
+    width: 244px;
+    border-radius: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quadrado-5 h3{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+
+.quadrado-6 h4{
+    font-size: 18px;
+    color: rgb(245, 60, 60);
+    margin-top: 10px;
+}
+
+.quadrado-6 h5{
+    font-size: 18px;
+    color: black;
+    margin-top: 10px;
+}
+
+.quadrado-6 {
+    background-color: rgb(166, 230, 247);
+    width: 244px;
+    border-radius: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* iphone */
+
+.lateral3 h1{
+    font-size: 21px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(250, 184, 236);
+    width: 345px;
+    margin-top: 8px;
+    
+}
+
+.lateral3 h2{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 105px;
+}
+
+.celular{
+    width: 257px;
+    margin-top: 10px;
+}
+
+.lateral3 h1{
+    font-size: 21px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(250, 184, 236);
+    width: 263px;
+    margin-top: 8px;
+    
+}
+
+.lateral3 h2{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 105px;
+}
+
+.lateral3 b{
+    margin-left: 65px;
+}
+
+.celular{
+    width: 257px;
+    margin-top: 10px;
+}
+
+.quadrado7{
+    background-color: rgb(250, 184, 236);
+    width: 244px;
+    border-radius: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quadrado7 h2{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.quadrado8{
+    background-color: rgb(250, 184, 236);
+    width: 244px;
+    border-radius: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quadrado8 h3{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+
+.quadrado9 h4{
+    font-size: 18px;
+    color: rgb(245, 60, 60);
+    margin-top: 10px;
+}
+
+.quadrado9 h5{
+    font-size: 18px;
+    color: black;
+    margin-top: 10px;
+}
+
+.quadrado9 {
+    background-color: rgb(250, 184, 236);
+    width: 244px;
+    border-radius: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* bola de futebol */
+
+.lateral4 h1{
+    font-size: 21px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(133, 176, 233);
+    width: 345px;
+    margin-top: 8px;
+    
+}
+
+.lateral4 h2{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 105px;
+}
+
+.celular{
+    width: 257px;
+    margin-top: 10px;
+}
+
+.lateral4 h1{
+    font-size: 21px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(133, 176, 233);
+    width: 263px;
+    margin-top: 8px;
+    
+}
+
+.lateral4 h2{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 105px;
+}
+
+.lateral4 b{
+    margin-left: 65px;
+}
+
+.celular{
+    width: 257px;
+    margin-top: 10px;
+}
+
+/* .quadrado1-2{
+    background-color: papayawhip;
+    width: 244px;
+    border-radius: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quadrado1-2 h2{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+} */
+
+.quadrado1-3{
+    background-color: rgb(133, 176, 233);
+    width: 244px;
+    border-radius: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quadrado1-3 h3{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+
+.quadrado1-4 h4{
+    font-size: 18px;
+    color: rgb(245, 60, 60);
+    margin-top: 10px;
+}
+
+.quadrado1-4 h5{
+    font-size: 18px;
+    color: black;
+    margin-top: 10px;
+}
+
+.quadrado1-4 {
+    background-color: rgb(133, 176, 233);
+    width: 244px;
+    border-radius: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.lateral5 h1{
+    font-size: 21px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(248, 194, 227);
+    width: 345px;
+    margin-top: 8px;
+    
+}
+
+.lateral5 h2{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 105px;
+}
+
+.celular{
+    width: 257px;
+    margin-top: 10px;
+}
+
+/* tv smart */
+
+.lateral5 h1{
+    font-size: 21px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(238, 236, 143);
+    width: 345px;
+    margin-top: 8px;
+    
+}
+
+.lateral5 h2{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 105px;
+}
+
+.celular{
+    width: 257px;
+    margin-top: 10px;
+}
+
+.lateral5 h1{
+    font-size: 21px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(238, 236, 143);
+    width: 263px;
+    margin-top: 8px;
+    
+}
+
+.lateral5 h2{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 105px;
+}
+
+.lateral5 b{
+    margin-left: 65px;
+}
+
+.celular{
+    width: 257px;
+    margin-top: 10px;
+}
+
+.quadrado1-5{
+    background-color: rgb(238, 236, 143);
+    width: 244px;
+    border-radius: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quadrado1-5 h2{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.quadrado1-6{
+    background-color: rgb(238, 236, 143);
+    width: 244px;
+    border-radius: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quadrado1-6 h3{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+
+.quadrado1-7 h4{
+    font-size: 18px;
+    color: rgb(245, 60, 60);
+    margin-top: 10px;
+}
+
+.quadrado1-7 h5{
+    font-size: 18px;
+    color: black;
+    margin-top: 10px;
+}
+
+.quadrado1-7 {
+    background-color:rgb(238, 236, 143);
+    width: 244px;
+    border-radius: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* notebok */
+
+.lateral6 h1{
+    font-size: 21px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(248, 194, 227);
+    width: 263px;
+    margin-top: 8px;
+    
+}
+
+.lateral6 h2{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 105px;
+}
+
+.lateral6 b{
+    margin-left: 65px;
+}
+
+.celular{
+    width: 257px;
+    margin-top: 10px;
+}
+
+.quadrado1-8{
+    background-color: rgb(248, 194, 227);
+    width: 244px;
+    border-radius: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quadrado1-8 h2{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.quadrado1-9{
+    background-color: rgb(248, 194, 227);
+    width: 244px;
+    border-radius: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quadrado1-9 h3{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+
+.quadrado2-0 h4{
+    font-size: 18px;
+    color: rgb(245, 60, 60);
+    margin-top: 10px;
+}
+
+.quadrado2-0 h5{
+    font-size: 18px;
+    color: black;
+    margin-top: 10px;
+}
+
+.quadrado2-0 {
+    background-color: rgb(248, 194, 227);
+    width: 244px;
+    border-radius: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* fone */
+
+.lateral7 h1{
+    font-size: 21px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: bisque;
+    width: 345px;
+    margin-top: 8px;
+    
+}
+
+.lateral7 h2{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 105px;
+}
+
+.celular{
+    width: 257px;
+    margin-top: 10px;
+}
+
+.lateral7 h1{
+    font-size: 21px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: bisque;
+    width: 263px;
+    margin-top: 8px;
+    
+}
+
+.lateral7 h2{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 105px;
+}
+
+.lateral7 b{
+    margin-left: 65px;
+}
+
+.celular{
+    width: 257px;
+    margin-top: 10px;
+}
+
+.quadrado2-1{
+    background-color: papayawhip;
+    width: 244px;
+    border-radius: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quadrado2-2 h2{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.quadrado2-3{
+    background-color: papayawhip;
+    width: 244px;
+    border-radius: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quadrado2-2 h3{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+
+.quadrado2-3 h4{
+    font-size: 18px;
+    color: rgb(245, 60, 60);
+    margin-top: 10px;
+}
+
+.quadrado2-3 h5{
+    font-size: 18px;
+    color: black;
+    margin-top: 10px;
+}
+
+.quadrado2-2 {
+    background-color: papayawhip;
+    width: 244px;
+    border-radius: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}

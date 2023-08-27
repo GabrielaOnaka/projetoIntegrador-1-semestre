@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="produto.css">
+    <title>Produtos</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- Demo styles -->
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 59%;
+      }
+    </style>
+    
+</head>
+<body>
+
+    <nav>
+            <div class="navbar">
+                <img src="./imagens/WhatsApp Image 2022-11-30 at 14.30.35.jpeg" alt="" class="Logo">
+            </div>
+    </nav>
+   
+    <div class="container">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="imagens/celular-A30.jpg" />
+                <h1>Samsung A30, 64gb Branco</h1>
+                <h2>R$779,00 em</h2>
+                <h4>10x R$77,90 sem juros</h4>
+                <h2>Frete Grátis</h2>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="imagens/iphone branco.jpg" />
+                <h1>Iphone 11, 128gb Branco</h1>
+                <h2>R$6.233 em</h2>
+                <h4>10x R$623,30 sem juros</h4>
+                <h2>Frete Grátis</h2>
+              </div>
+              
+              <div class="swiper-slide">
+                <img src="imagens/motorola.jpg" />
+                <h1>Motorola Moto One, 128gb Aquamarine</h1>
+                <h2>R$1.799,90 em</h2>
+                <h3>10x R$179,90 sem juros</h3>
+                <h2>Frete grátis</h2>
+
+              </div>
+              <div class="swiper-slide">
+                <img src="imagens/bola fut.webp" />
+                <h1>Bola de Futebol Penalty</h1>
+                <h2>R$88,99 em</h2>
+                <h3>12x R$8,64</h3>
+                <h2>Frete Grátis</h2>
+
+              </div>
+              <div class="swiper-slide">
+                <img src="imagens/tvsmarth.webp" />
+                <h1>Smart Tv Samsung Led 32"</h1>
+                <h2>R$1.349,00 em</h2>
+                <h3>10x R$134,90 sem juros</h3>
+                <h2>Frete Grátis</h2>
+              </div>
+              <div class="swiper-slide">
+                <img src="imagens/notebook.webp" />
+                <h1>Notebook Acer Aspire</h1>
+                <h2>R$1.769,00 em</h2>
+                <h3>10x 176,90 sem juros</h3>
+                <h2>Frete Grátis</h2>
+
+              </div>
+              <div class="swiper-slide">
+                <img src="imagens/fone jbl.webp" />
+                <h1>Fone de ouvido sem fio JBL</h1>
+                <h2>R$132,00 em</h2>
+                <h3>12x 12,80 </h3>
+                <h2>Frete Grátis</h2>
+              </div>
+              
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+      
+          <!-- Swiper JS -->
+          <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+      
+          <!-- Initialize Swiper -->
+          <script>
+            var swiper = new Swiper(".mySwiper", {
+              effect: "coverflow",
+              grabCursor: true,
+              centeredSlides: true,
+              slidesPerView: "auto",
+              coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+                },
+                loop: true,
+                autoplay: {
+                delay: 1500,
+                disableOnInteraction: false,
+                },
+              pagination: {
+                el: ".swiper-pagination",
+              },
+            });
+          </script>
+    </div>
+    <!-- <div class="container">
+
+        <div class="lateral">
+            <h1>Celular Samsung A30, 64gb Branco</h1>
+        </div>
+
+        
+
+        <div class="img">
+            <img src="./imagens/celular A30.webp" alt="" class="celular">
+        </div>
+
+
+        <div class="quadrado">
+            <ul>
+                <h2>R$779,00 em</h2>
+                <h4>10x R$77,90 sem juros</h4>
+                <h2>Frete Grátis</h2>
+                <a href="detalhes.html"><h3>Mais detalhes></h3></a>
+            </ul>
+            
+            
+        </div> -->
+
+        <div class="detalhes">
+            <a href="detalhes.html">Mais detalhes dos produtos ></a>
+        </div>
+
+        <button class="botao"><a>Adicionar ao Carrinho</a></button>
+       
+        <!-- <div class="nome">
+            <h1>Apple Iphone 13, 128gb Rosa</h1>
+        </div>
+        <div class="img2">
+            <img src="./imagens/iphone.jpg" alt="" class="iphone">
+        </div>
+
+        <div class="quadrado2">
+            <h2>R$6.233 em</h2>
+            <h3>10x R$623,30 sem juros</h3>
+            <h2>Frete Grátis</h2>
+            <h4>Mais detalhes></h4>
+        </div> -->
+        <!-- <button class="botao2"><a>Adicionar ao Carrinho</a></button> -->
+            
+    </div>
+       
+    
+    <div class="voltar">
+        <a href="index.html">Voltar para a página inicial</a>
+    </div>
+
+   
+</body>
+</html>

@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+navbar{
+    background: rgb(194, 194, 194);
+    height: 100px;
+    width: 100%;
+    margin-bottom: 3px solid black;
+    box-shadow: 0 0 5px black;
+}
+
+.voltar a{
+    margin-top: 10px;
+    background-color: rgb(184, 184, 184);
+    border-radius: 29px;
+}

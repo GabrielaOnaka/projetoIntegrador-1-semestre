@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background: rgb(194, 194, 194);
+    height: 100px;
+    width: 100%;
+    margin-bottom: 3px solid black;
+    box-shadow: 0 0 5px black;
+}
+
+.voltar{
+    margin-top: 10px;
+}
+
+
+.Logo{
+    width: 156px;
+}
+
+.lateral1 b{
+    margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 59px;
+    color: black;
+    background-color: #c547a6;
+}
+
+/* samsung */
+.lateral h1{
+    font-size: 21px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: bisque;
+    width: 345px;
+    margin-top: 8px;
+    
+}
+
+.lateral h2{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 105px;
+}
+
+.lateral p{
+    margin-left: 65px;
+
+}
+
+.celular{
+    width: 257px;
+    margin-top: 10px;
+}
+
+.quadrado{
+    background-color: papayawhip;
+    width: 244px;
+    border-radius: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quadrado h2{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.quadrado2{
+    background-color: papayawhip;
+    width: 244px;
+    border-radius: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quadrado2 h3{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+
+.quadrado3 h4{
+    font-size: 18px;
+    color: rgb(245, 60, 60);
+    margin-top: 10px;
+}
+
+.quadrado3 h5{
+    font-size: 18px;
+    color: black;
+    margin-top: 10px;
+}
+
+.quadrado3 {
+    background-color: papayawhip;
+    width: 244px;
+    border-radius: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fotoCarrinho{
+    width: 170px;
+}
+
+.voltar a{
+    margin-top: 10px;
+    background-color: aquamarine;
+
+}
+
+button a{
+    background-color: rgb(173, 173, 173);
+}
+
+button {
+    margin-top: 5px;
+    padding: 10px 20px;
+    background-color: rgb(173, 173, 173);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    transition: 0.8s ease;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 48px;
+    margin-left: 560px;
+}
+
+button:hover {
+    padding: 10px 20px;
+    background-color: rgb(173, 173, 173);
+    color: #ffffff;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    transition: 0.8s ease;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    transform: scale(1.10);
+    transition-delay: 0,2s;
+}
+
+.produto-carrinho valor{
+    display: flex;
+}
+
+#lista h1{
+    text-align: center;
+    background-color: rgb(100, 121, 121);
+    color: rgb(14, 14, 14);
+}

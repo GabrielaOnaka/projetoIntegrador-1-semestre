@@ -1,0 +1,329 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cantoSuperior a{
+    text-decoration: none;
+    color: #000000;
+}
+
+@media screen and (max-width:768px) {
+    .container{
+        width: inherit;
+    }
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+nav {
+    background: rgb(194, 194, 194);
+    height: 145px;
+    width: 100%;
+    margin-bottom: 3px solid black;
+    box-shadow: 0 0 5px black;
+}
+
+.navbar {
+    align-items: center;
+    height: 130px;
+}
+
+/* .hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(122, 9, 9);
+} */
+
+.barra_buscar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.caixa_buscar {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.caixa_buscar input {
+    padding: 15px;
+    width: 320px;
+    background: #f7f7f7;
+    border: none;
+}
+
+.caixa_buscar img {
+    width: 34px;
+    margin-left: -50px;
+}
+
+.Logo {
+    width: 156px;
+}
+
+
+
+/* .hamburguer{
+    width: 2rem;
+    height: 2rem;
+    position: fixed;
+    z-index: 5;
+    right: 2rem;
+    top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.show-menu.hamburguer{
+    right: 16rem;
+}
+.line{
+    width: 100%;
+    height: .1rem;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: rgb(7, 5, 5);
+    box-shadow: 0.1rem 0.1rem 3px rgb(0, 0, 0);
+    transition: transform .7s;
+
+}
+.show-menu #line1{
+    transform: rotate(45deg) translate(.4rem, .9rem);
+    background-color: rgb(246, 255, 0);
+    box-shadow: none;
+}
+.show-menu #line2{
+    opacity: 0;
+    visibility: hidden;
+}
+.show-menu #line3{
+    transform: rotate(45deg) translate(.4rem, -.9rem);
+    background-color: rgb(246, 255, 0);
+    box-shadow: none;
+}
+.sidebar{
+    width: 20rem;
+    height: 100vh;
+    background-color: linear-gradient(329.54deg, #0a1b2d 0%, #17406c 100%);
+    box-shadow: 10px 5px 15px 10px rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    right: -20rem;
+    transition: all.8s;
+
+}
+
+.menu{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.menu-item{
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    transition: color.7s;
+
+}
+.menu-link{
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    transition: color.7s;
+}
+    .menu-link:hover{
+    color: aqua;
+    transition: color.7s;
+} */
+
+
+.menus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.titulos ul{
+    display: inline-flex;
+    list-style: none;
+    
+}
+
+
+.titulos ul li{
+    width: 90px;
+    margin: 15px;
+    padding: 15px;
+    position: relative;
+    z-index: 11;
+}
+
+.titulos ul li a{
+    text-decoration: none;
+    color: #000000;
+    /* z-index: 10;
+    position: absolute; */
+    
+}
+
+.sub-menu-1{
+    display: none;
+    
+}
+
+.titulos ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: rgb(165, 165, 160);
+    margin-top: 15px;
+    margin-left: -38px;
+    
+}
+
+.titulos ul li:hover .sub-menu-1 ul{
+    display: block;
+}
+
+.titulos ul li:hover .sub-menu-1 ul{
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.7s;
+   
+}
+
+.titulos ul li:hover  .sub-menu-1 ul li:hover{
+    background-color: rgb(116, 143, 134);
+    
+    
+}
+
+/* .titulos ul {
+    display: flex;
+    list-style: none;
+
+}
+.titulos li {
+    margin: 0 20px;
+}
+.titulos ul li:hover{
+    background-color: #d2d4b6;
+} */
+
+.cantoSuperior ul {
+    display: flex;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.cantoSuperior li {
+    margin: 0 20px;
+}
+
+.cantoSuperior img {
+    width: 40px;
+}
+
+.cep {
+    display: flex;
+    align-items: center;
+}
+
+.cep img {
+    width: 40px;
+}
+
+.slide {
+    height: 400px;
+    width: 100%;
+    margin: 0 auto;
+    background: rgb(189, 139, 240);
+    
+    z-index: 1;
+}
+
+.container {
+    background: rgb(0, 0, 0);
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+   
+}
+
+.slide1 {
+    background: url('./imagens/slide.webp') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card1 h1 {
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.card1 img {
+    height: 150px !important;
+    object-fit: contain !important;
+}
+
+.card2 h2{
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.card2 h3{
+    font-size: 15px;
+    color: aliceblue;
+}
+
+
+.compre-agora {
+    color: #fff;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.oferta-do-dia {
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+
+.oferta {
+    object-fit: inherit !important;
+    height: auto !important;
+}
